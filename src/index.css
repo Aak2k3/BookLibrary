@@ -1,0 +1,205 @@
+.categories{
+  text-align: center;
+}
+.categories h1{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav{
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  
+}
+.nav li{
+  background-color: rgb(213, 213, 213);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 700;
+  transition: 0.2s;
+}
+.nav li:hover{
+  scale: 1.2;
+  background-color: white;
+  color: rgb(58, 222, 58);
+  font-weight: 900;
+}
+
+.book{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  
+  width: 300px;
+  margin: 30px;
+  padding: 20px;
+  box-shadow: 0px 0px 3px rgb(128, 128, 128);
+  transition: ease-in-out 0.2s;
+  position: relative;
+  
+}
+
+.bookImage{
+  align-self: center;
+}
+
+.book:hover{
+  scale: 1.05;
+  
+}
+
+
+a {
+  text-decoration: none;
+}
+
+.catList li {
+  display: inline-block;
+  margin: 10px;
+}
+
+.book a {
+  text-decoration: none; 
+}
+
+.details {
+  display: none; 
+  position: absolute; 
+  bottom: 20px;
+  left: 35%;
+  font-size: x-large;
+  background-color: aquamarine;
+  color: rgb(0, 0, 0);
+  font-family: Tahoma, sans-serif;
+}
+.description{
+  color: black;
+  font-size: medium;
+}
+
+.author{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  ;
+  font-weight: 700;
+}
+
+.description h2{
+  color: rgb(127, 136, 176);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.book:hover .description{
+  opacity: 0.2;
+}
+.book:hover .details {
+  display:block;
+  
+}
+
+
+.searchBar{
+  text-align: center;
+}
+.searchBar input{
+  width: 50%;
+  font-size: larger;
+  border-radius: 20px;
+  padding-left: 20px;
+}
+
+.heading{
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: antiquewhite;
+  padding: 10px;
+}
+
+.searchBar button{
+  font-size: larger;
+  margin-left: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(165, 244, 248);
+}
+
+.searchBar button:active{
+  background-color: rgb(88, 127, 175);
+  scale: 0.95;
+}
+
+.button{
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.book:visited{
+  background-color: aqua;
+}
+
+.bookList{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.catList{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: aliceblue;
+}
+.catList li{
+  padding: 5px;
+  border-radius: 20px;
+  font-size: large;
+  transition-duration: 0.2s;
+}
+
+.catList li:hover{
+  background-color: rgb(255, 255, 255);
+  scale: 1.05 ;
+  font-family: Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 600;
+}
+
+.catList a{
+  color: rgb(77, 77, 77);
+}
+
+.bookDetails {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  gap: 20px;
+  
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+  margin: 20px auto;
+  align-items: center;
+  padding: 20px;
+}
+
+.font{
+  font-size: large;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.title{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.cover-image{
+  box-shadow: 0px 0px 10px black;
+  margin-bottom: 20px;
+  transition: ease-in-out 0.3s;
+}
+
+.cover-image:hover{
+  scale: 1.2;
+}
